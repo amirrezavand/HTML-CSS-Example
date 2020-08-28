@@ -1,0 +1,36 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+p{
+    text-align: center;
+}
+#box1,#box2,#box3,#box4{
+    height:100px;
+    float:right;
+    width: 25%;
+}
+#box1{
+    background-color: #fa26a0;
+}
+#box2{
+    background-color: #05dfd7;
+}
+#box3{
+    background-color: #a3f7bf;
+}
+#box4{
+    background-color: #fff591;
+}
+
+@media screen and (max-width:767px){
+    #box1,#box2,#box3,#box4{
+        width: 50%;
+    }
+}
+@media screen and (max-width:575px){
+    #box1,#box2,#box3,#box4{
+        width: 100%;
+    }
+}
